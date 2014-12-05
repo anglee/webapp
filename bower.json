@@ -1,0 +1,25 @@
+{
+  "name": "webapp",
+  "version": "0.0.0",
+  "homepage": "https://github.com/anglee/webapp",
+  "authors": [
+    "anglee <ang.lee@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "q": "1.0.1",
+    "underscore.string": "~2.4.0",
+    "lodash": "~2.4.1",
+    "jquery": "~2.1.1",
+    "d3": "~3.4.13",
+    "angular": "~1.3.5"
+  }
+}
