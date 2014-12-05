@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="myApp">
 <head lang="en">
   <meta charset="UTF-8">
   <title>app</title>
@@ -7,10 +7,12 @@
 </head>
 <body>
   <h1>Hello, World!</h1>
+  <div ng-controller="myCtrl">foo = {{foo}}</div>
   <script src="bower_components/lodash/dist/lodash.js"></script>
   <script src="bower_components/underscore.string/dist/underscore.string.min.js"></script>
   <script src="bower_components/q/q.js"></script>
   <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/angular/angular.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
