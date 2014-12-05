@@ -1,0 +1,19 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "description": "empty webapp",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anglee/webapp.git"
+  },
+  "author": "Ang Lee (ang.lee@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anglee/webapp/issues"
+  },
+  "homepage": "https://github.com/anglee/webapp"
+}
