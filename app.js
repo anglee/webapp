@@ -5,5 +5,4 @@ Q.fcall(function() {
   console.log(_.range(1,10,2));
 });
 
-console.log("Hello");
-
+console.log("Hello, World!");

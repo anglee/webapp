@@ -4,7 +4,8 @@
   "description": "empty webapp",
   "main": "app.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "hello": "gulp hello"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,9 @@
     "express": "^4.10.4",
     "lodash": "^2.4.1",
     "q": "^1.1.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-nodemon": "^1.0.4"
   }
 }
