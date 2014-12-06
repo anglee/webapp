@@ -3,7 +3,7 @@
 
   var http = require('http');
   var express = require("express");
-  //var foo = require("./deps/foo");
+  //var foo = require("./modules/foo");
   //console.log(foo);
 
   var args = process.argv.slice(2);
