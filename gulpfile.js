@@ -9,6 +9,9 @@ gulp.task('hello', function () {
   console.log("Hello");
 });
 
-gulp.task('dev', function() {
-  nodemon({script: 'app.js'});
+gulp.task('watch', function() {
+  nodemon({script: 'app.js'})
+      .on('restart', function () {
+        console.log('=========== restarted! ===========')
+      });
 });
