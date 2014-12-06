@@ -1,4 +1,14 @@
-var aaa = {};
+var _ = (function() {
+var foo = {};
+/**
+ * @license
+ * Lo-Dash 2.4.1 (Custom Build) <http://lodash.com/>
+ * Build: `lodash modern -o ./dist/lodash.js`
+ * Copyright 2012-2013 The Dojo Foundation <http://dojofoundation.org/>
+ * Based on Underscore.js 1.5.2 <http://underscorejs.org/LICENSE>
+ * Copyright 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+ * Available under MIT license <http://lodash.com/license>
+ */
 ;(function() {
 
   /** Used as a safe reference for `undefined` in pre ES5 environments */
@@ -6774,6 +6784,9 @@ var aaa = {};
     // in a browser or Rhino
     root._ = _;
   }
-}.call(aaa));
 
-console.log(aaa);
+  foo._ = _;
+
+}.call(this));
+  return foo._;
+})();
