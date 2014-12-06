@@ -3,6 +3,8 @@
 
   var http = require('http');
   var express = require("express");
+  //var foo = require("./deps/foo");
+  //console.log(foo);
 
   var args = process.argv.slice(2);
   var httpPort = args[0] ? args[0] : 3000;
