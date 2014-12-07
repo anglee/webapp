@@ -11,4 +11,6 @@ function solution(A) {
     return Math.abs(left - right);
   }));
 }
-console.log(solution([3, 1, 2, 4, 3]));
+
+console.assert(solution([3, 1, 2, 4, 3]) === 1);
+console.assert(solution([3, 1, 2, 4, 3]) === 2);
