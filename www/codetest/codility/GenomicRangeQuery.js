@@ -15,7 +15,7 @@ function solution(S, P, Q) {
     G: S.length,
     T: S.length
   };
-  var map = []
+  var map = [];
 
   for (var i = S.length - 1; i >= 0; i--) {
     last[S[i]] = i;
